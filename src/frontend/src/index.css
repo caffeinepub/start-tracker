@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        /* Warm earth tones - Light mode */
+        --background: 0.97 0.02 60;  /* Warm cream */
+        --foreground: 0.25 0.04 40;  /* Deep brown */
+        --card: 0.99 0.01 60;  /* Off-white with warmth */
+        --card-foreground: 0.25 0.04 40;
+        --popover: 0.99 0.01 60;
+        --popover-foreground: 0.25 0.04 40;
+        --primary: 0.55 0.15 35;  /* Terracotta */
+        --primary-foreground: 0.98 0.01 60;
+        --secondary: 0.65 0.08 140;  /* Sage green */
+        --secondary-foreground: 0.98 0.01 60;
+        --muted: 0.88 0.02 50;  /* Warm beige */
+        --muted-foreground: 0.50 0.03 40;
+        --accent: 0.75 0.10 80;  /* Warm gold */
+        --accent-foreground: 0.25 0.04 40;
+        --destructive: 0.55 0.18 25;  /* Warm red-brown */
+        --destructive-foreground: 0.98 0.01 60;
+        --border: 0.85 0.02 50;
+        --input: 0.85 0.02 50;
+        --ring: 0.55 0.15 35;
+        --chart-1: 0.55 0.15 35;
+        --chart-2: 0.65 0.08 140;
+        --chart-3: 0.75 0.10 80;
+        --chart-4: 0.60 0.12 180;
+        --chart-5: 0.50 0.14 320;
+    }
+
+    .dark {
+        /* Warm earth tones - Dark mode */
+        --background: 0.20 0.03 35;  /* Deep warm brown */
+        --foreground: 0.95 0.02 60;  /* Warm off-white */
+        --card: 0.25 0.03 40;  /* Slightly lighter brown */
+        --card-foreground: 0.95 0.02 60;
+        --popover: 0.25 0.03 40;
+        --popover-foreground: 0.95 0.02 60;
+        --primary: 0.65 0.16 35;  /* Lighter terracotta */
+        --primary-foreground: 0.20 0.03 35;
+        --secondary: 0.55 0.10 140;  /* Muted sage */
+        --secondary-foreground: 0.95 0.02 60;
+        --muted: 0.35 0.03 40;  /* Warm dark beige */
+        --muted-foreground: 0.70 0.02 50;
+        --accent: 0.70 0.12 80;  /* Warm gold */
+        --accent-foreground: 0.20 0.03 35;
+        --destructive: 0.60 0.18 25;  /* Warm red */
+        --destructive-foreground: 0.95 0.02 60;
+        --border: 0.35 0.03 40;
+        --input: 0.35 0.03 40;
+        --ring: 0.65 0.16 35;
+        --chart-1: 0.65 0.16 35;
+        --chart-2: 0.55 0.10 140;
+        --chart-3: 0.70 0.12 80;
+        --chart-4: 0.60 0.12 180;
+        --chart-5: 0.55 0.14 320;
+    }
+
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "kern" 1, "liga" 1;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}

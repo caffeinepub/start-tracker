@@ -1,0 +1,6 @@
+{
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching counts and mutating start/no-start/reset actions with automatic cache invalidation.",
+  "frontend/src/App.tsx": "Main application component displaying start tracking interface with percentage calculation, count displays, and action buttons using warm earth tone design.",
+  "frontend/src/index.css": "Global styles with warm earth tone OKLCH color system (terracotta, sage green, cream) for both light and dark modes with optimized typography rendering.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Inter font family, warm earth tone color tokens, and custom border radius values for the tracking interface."
+}

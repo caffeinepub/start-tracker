@@ -1,0 +1,145 @@
+{
+  "kind": "build_request",
+  "title": "Create start tracking website with percentage calculator",
+  "projectName": "Start Tracker",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a Start button that increments the start count when clicked",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "\"Start\", \"No Start\", and \"Reset\" buttons"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Start button is visible and clickable",
+        "Clicking Start increments the start count by 1",
+        "Start count persists across page refreshes"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a No Start button that increments the no-start count when clicked",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "\"Start\", \"No Start\", and \"Reset\" buttons"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No Start button is visible and clickable",
+        "Clicking No Start increments the no-start count by 1",
+        "No-start count persists across page refreshes"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a Reset button that clears both start and no-start counts, resetting them to zero",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "\"Start\", \"No Start\", and \"Reset\" buttons"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Reset button is visible and clickable",
+        "Clicking Reset sets both start and no-start counts to 0",
+        "Reset action persists across page refreshes"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Display the total number of starts on the page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Display # starts and # No starts as well"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Start count is clearly labeled and visible",
+        "Count updates immediately after Start button is clicked",
+        "Count displays as an integer"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Display the total number of no-starts on the page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Display # starts and # No starts as well"
+        ]
+      },
+      "acceptanceCriteria": [
+        "No-start count is clearly labeled and visible",
+        "Count updates immediately after No Start button is clicked",
+        "Count displays as an integer"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Calculate and display the start percentage as (starts / total attempts) × 100, where total attempts equals starts plus no-starts, showing multiple decimal places",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "calculates and displays the average percentage of starts vs the total number of attempts",
+          "Keep several decimal points on the start chance"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Percentage is calculated as (starts / (starts + no-starts)) × 100",
+        "Percentage displays with at least 2 decimal places (e.g., 66.67%)",
+        "Percentage updates immediately when either count changes",
+        "When total attempts is zero, display 0.00% or appropriate message"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Design a clean, minimalist interface with a distinctive visual theme using warm earth tones (terracotta, sage green, cream) with modern sans-serif typography and generous spacing for a calming, focused tracking experience",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Interface uses a cohesive color palette with warm earth tones",
+        "Typography is clear and readable with modern sans-serif fonts",
+        "Layout provides generous whitespace and visual breathing room",
+        "Overall aesthetic feels calm and purpose-built for tracking"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "User authentication or multi-user support",
+    "Historical tracking or data visualization over time",
+    "Export or sharing functionality",
+    "Mobile app version"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

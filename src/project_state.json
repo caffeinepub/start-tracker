@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Simple website to track start attempts with buttons for Start, No Start, and Reset. Displays start percentage, start count, and no-start count with multiple decimal points.",
+  "architectural_notes": [
+    "Website tracks start vs no-start attempts with live percentage calculation"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-start-button-that-increments-the-start-count-when-clicked",
+      "title": "Create a Start button that increments the start count when clicked",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-no-start-button-that-increments-the-no-start-count-when-clicked",
+      "title": "Create a No Start button that increments the no-start count when clicked",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-reset-button-that-clears-both-start-and-no-start-counts-resetting-them-to-zero",
+      "title": "Create a Reset button that clears both start and no-start counts, resetting them to zero",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-total-number-of-starts-on-the-page",
+      "title": "Display the total number of starts on the page",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-the-total-number-of-no-starts-on-the-page",
+      "title": "Display the total number of no-starts on the page",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-calculate-and-display-the-start-percentage-as-starts-total-attempts-100-where-total-attempts-equals-starts-plus-no-starts-showing-multiple-decimal-places",
+      "title": "Calculate and display the start percentage as (starts / total attempts) × 100, where total attempts equals starts plus no-starts, showing multiple decimal places",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-clean-minimalist-interface-with-a-distinctive-visual-theme-using-warm-earth-tones-terracotta-sage-green-cream-with-modern-sans-serif-typography-and-generous-spacing-for-a-calming-focused-tracking-experience",
+      "title": "Design a clean, minimalist interface with a distinctive visual theme using warm earth tones (terracotta, sage green, cream) with modern sans-serif typography and generous spacing for a calming, focused tracking experience",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create Start button to increment start count",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Create No Start button to increment no-start count",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Create Reset button to clear all counts",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Display total number of starts",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Display total number of no-starts",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Calculate and display start percentage with multiple decimal points",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Start Tracker",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

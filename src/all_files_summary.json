@@ -1,0 +1,15 @@
+{
+  "backend/main.mo": "Motoko actor that maintains two counters (startCount and noStartCount) with public functions to increment each, reset both to zero, and query current values.",
+  "feature_evidence.json": "Feature evidence report documenting six implemented features (Start button, No Start button, Reset button, display counts, and percentage calculation) with high confidence, all implemented in frontend/src/App.tsx.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of four frontend files describing React Query hooks, main App component with tracking interface, global styles with warm earth tones, and Tailwind configuration.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining neutral grayscale tokens for light and dark modes with custom border radius.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx for the Start Tracker application.",
+  "frontend/src/App.tsx": "Main React component rendering the start tracking interface with percentage display, count statistics, and three action buttons (Start, No Start, Reset) using React Query hooks and loading states.",
+  "frontend/src/hooks/useActor.ts": "React Query hook that creates and manages the backend actor instance with Internet Identity authentication, automatically invalidating dependent queries when identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching counts and mutating start/no-start/reset actions with automatic cache invalidation on success.",
+  "frontend/src/index.css": "Tailwind CSS with warm earth tone OKLCH color system (terracotta, sage green, cream, brown) for light and dark modes with optimized typography rendering.",
+  "frontend/src/main.tsx": "React application entry point wrapping App with QueryClientProvider and InternetIdentityProvider for state management and authentication.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration file that defines custom theme extensions including color schemes using OKLCH color space, typography with Inter font, container settings, border radius variables, and animation keyframes for accordion components.",
+  "project_state.json": "Project state file for a Start Tracker application that tracks start/no-start attempts with percentage calculation, featuring seven implemented features including buttons, counters, and a warm earth-tone minimalist UI design."
+}
